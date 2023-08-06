@@ -1,0 +1,14 @@
+.nav-list {
+  display: flex;
+  list-style-type: none;
+  justify-content: flex-end;
+  margin-top: 15px;
+  margin-right: 15px;
+  padding: 0;
+}
+li {
+  margin: 0 10px;
+}
+.link {
+  text-decoration-line: none;
+}
