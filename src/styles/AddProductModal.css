@@ -1,0 +1,65 @@
+/* AddProductModal.css */
+
+/* Modal overlay styles */
+.modal-product-overlay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+/* Modal content styles */
+.modal-product-content {
+  width: 400px;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Modal header styles */
+.modal-product-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* Modal form styles */
+.modal-product-form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Form field styles */
+.modal-label {
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+.modal-input {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 12px;
+}
+
+/* Style the Add Product button */
+.add-product-button {
+  background-color: #3498db;
+  border: none;
+  color: #fff;
+  padding: 10px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.add-product-button:hover {
+  background-color: #2980b9;
+}
